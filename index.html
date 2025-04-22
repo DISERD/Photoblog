@@ -4,68 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header>
-<nav>
-    <ul>
-        <li><a href="./">LIFESTYLE</a></li>
-        <li><a href="./">PHOTODIARY</a></li>
-        <li><a href="./">MUSIC</a></li>
-        <li><a href="./">TRAVEL</a></li>
-    </ul>
-</nav>
+<header class="site-header"></header>
+    <nav class="main-navigation"></nav>
+        <ul class="nav-list"></ul>
+            <li class="nav-item"><a href="./" class="nav-link current">LIFESTYLE</a></li>
+            <li class="nav-item"><a href="./" class="nav-link">PHOTODIARY</a></li>
+            <li class="nav-item"><a href="./" class="nav-link">MUSIC</a></li>
+            <li class="nav-item"><a href="./" class="nav-link">TRAVEL</a></li>
+        </ul>
+    </nav>
 </header>
-<main>
-<section>
-    <ul>
-        <li>
-            <img src="./IMG/Music.jpg" alt="Woman">
-            <p>Lorem</p>
-            <H3>Lorem, ipsum dolor.</H3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
-        </li>
-        <li>
-            <img src="./IMG/Coffee.jpg" alt="Coffee">
-            <p>Lorem</p>
-            <H3>Lorem, ipsum dolor.</H3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe
-                quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate
-                qui?</p>
-        </li>
-        <li>
-            <img src="./IMG/AmrericanCity.jpg" alt="Two womans in the city">
-            <p>Lorem</p>
-            <H3>Lorem, ipsum dolor.</H3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe
-                quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate
-                qui?</p>
-        </li>
-        <li>
-            <img src="./IMG/Alps.jpg" alt="Woman in a hat and coat">
-            <p>Lorem</p>
-            <H3>Lorem, ipsum dolor.</H3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe
-                quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate
-                qui?</p>
-        </li><li>
-            <img src="./IMG/Running.jpg" alt="Woman Running">
-            <p>Lorem</p>
-            <H3>Lorem, ipsum dolor.</H3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe
-                quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate
-                qui?</p>
-        </li><li>
-            <img src="./IMG/Road.jpg" alt="A road in the snow">
-            <p>Lorem</p>
-            <H3>Lorem, ipsum dolor.</H3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe
-                quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate
-                qui?</p>
-        </li>
-    </ul>
-</section>
+<main class="content-main">
+    <section class="photo-section">
+        <ul class="photo-list">
+            <li class="photo-item">
+                <img src="./IMG/Music.jpg" alt="Woman" class="photo-image">
+                <p class="photo-category">Lorem</p>
+                <h3 class="photo-title">Lorem, ipsum dolor.</h3>
+                <p class="photo-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
+            </li>
+            <li class="photo-item">
+                <img src="./IMG/Coffee.jpg" alt="Coffee" class="photo-image">
+                <p class="photo-category">Lorem</p>
+                <h3 class="photo-title">Lorem, ipsum dolor.</h3>
+                <p class="photo-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
+            </li>
+            <li class="photo-item">
+                <img src="./IMG/AmrericanCity.jpg" alt="Two womans in the city" class="photo-image">
+                <p class="photo-category">Lorem</p>
+                <h3 class="photo-title">Lorem, ipsum dolor.</h3>
+                <p class="photo-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
+            </li>
+            <li class="photo-item">
+                <img src="./IMG/Alps.jpg" alt="Woman in a hat and coat" class="photo-image">
+                <p class="photo-category">Lorem</p>
+                <h3 class="photo-title">Lorem, ipsum dolor.</h3>
+                <p class="photo-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
+            </li>
+            <li class="photo-item">
+                <img src="./IMG/Running.jpg" alt="Woman Running" class="photo-image">
+                <p class="photo-category">Lorem</p>
+                <h3 class="photo-title">Lorem, ipsum dolor.</h3>
+                <p class="photo-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
+            </li>
+            <li class="photo-item">
+                <img src="./IMG/Road.jpg" alt="A road in the snow" class="photo-image">
+                <p class="photo-category">Lorem</p>
+                <h3 class="photo-title">Lorem, ipsum dolor.</h3>
+                <p class="photo-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt excepturi totam cumque, asperiores saepe quisquam voluptate error iure exercitationem natus aspernatur quasi optio? Cumque quam inventore neque voluptate qui?</p>
+            </li>
+        </ul>
+        <button class="button" type="button">Load more</button>
+    </section>
+</main>
 </main>
 </section>
     

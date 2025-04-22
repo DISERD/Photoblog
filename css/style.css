@@ -1,7 +1,75 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
+:root {
+    --color-text-dark: #000000;
+    --color-text-light: #FFFFFF;
+    --main-text-color: #626262;
+    --heading-color: #B4AD9E;
+    --nav-link-color: #7D7D7D;
+    --accent-color: #03A9F4;
+    --bg-color: #FFFFFF;
+    --border-btn-color: #626262
+
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "Ubuntu", sans-serif;
 }
+
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--nav-link-color);
+}
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.nav-link.current {
+    color: var(--accent-color);
+}
+
+.photo-item {
+    width: 420px;
+    height: 546px;
+}
+
+.photo-image {
+    width: 420px;
+    height: 280px;
+}
+
+.photo-category {
+    font-family: var(--second-family);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--heading-color);
+}
+
+.photo-title {
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--main-text-color);
+}
+
+.photo-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--main-text-color);
+}
+
+.button {
+    width: 165px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--main-text-color);
+}
+.button:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+
