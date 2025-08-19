@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="header-container container">
             <nav>
                 <ul class="header-list list">
                     <li><a class="header-link current" href="./index.html">LIFESTYLE</a></li>
@@ -24,6 +24,8 @@
                     <li><a class="header-link" href="./music.html">MUSIC</a></li>
                     <li><a class="header-link" href="./">TRAVEL</a></li>
                 </ul>
+            </nav>
+            <button class="header_button" data-modal-open>Join to us</button>
         </div>
         </header>
 <main class="content-main">
@@ -73,6 +75,17 @@
 </main>
 </main>
 </section>
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal-close-button" data-modal-close>Close</button>
+        <p class="modal-content">Here's been the modal content but I ate that.</p>
+
+    </div>
+
+</div>
+
+<script src="./js/modal.js"></script>
     
 </body>
 </html>
